@@ -1,0 +1,14 @@
+name: ds
+channels:
+  - conda-forge
+  - intel
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+prefix: /home/jorge/miniconda3/envs/ds
+
