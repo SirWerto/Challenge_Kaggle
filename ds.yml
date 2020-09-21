@@ -10,5 +10,6 @@ dependencies:
   - scikit-learn
   - matplotlib
   - jupyterlab
+  - keras
 prefix: /home/jorge/miniconda3/envs/ds
 

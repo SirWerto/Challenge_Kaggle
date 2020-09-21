@@ -19,7 +19,7 @@ def expand(X):
         "Parch" : X["Parch"],
         "Ticket" : X["Ticket"],
         "Fare" : X["Fare"],
-        "Cabin" : X["Cabin"],
+        #"Cabin" : X["Cabin"],
         "Letter" : pd.Series([x[0] for x in SCabin], dtype="category"),
         "Number" : pd.Series([x[1] for x in SCabin]),
         "Many" : pd.Series([x[2] for x in SCabin]),
