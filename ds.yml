@@ -2,6 +2,7 @@ name: ds
 channels:
   - conda-forge
   - intel
+  - anaconda
   - defaults
 dependencies:
   - python=3.8
@@ -11,5 +12,6 @@ dependencies:
   - matplotlib
   - jupyterlab
   - keras
+  - seaborn
 prefix: /home/jorge/miniconda3/envs/ds
 
